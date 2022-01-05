@@ -35,8 +35,6 @@ pub fn collatz_halt(mut x: u64) -> impl Iterator<Item = u64> {
 
             Some(out)
         }
-
-
     })
 }
 
